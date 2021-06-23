@@ -1,6 +1,10 @@
 {
   "name": "with-typescript-eslint-jest",
-  "author": "@erikdstock",
+  "author": {
+    "email": "github@maacpiash.com",
+    "name": "Ahad Chowdhury",
+    "url": "https://www.maacpiash.com"
+  },
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
