@@ -4,27 +4,27 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "type-check": "tsc --pretty --noEmit",
+    "clean": "rimraf out",
+    "dev": "next",
+    "export": "next export",
     "format": "prettier --write .",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "lint": "eslint . --ext ts --ext tsx --quiet --fix",
+    "sb": "start-storybook -p 6006",
+    "sb:build": "build-storybook",
+    "start": "next start",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "type-check": "tsc --pretty --noEmit"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run type-check"
+      "pre-commit": "lint-staged --verbose"
     }
   },
   "lint-staged": {
     "*.@(ts|tsx)": [
-      "yarn lint",
-      "yarn format"
+      "yarn format",
+      "yarn lint"
     ]
   },
   "dependencies": {
