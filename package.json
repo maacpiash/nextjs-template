@@ -21,11 +21,6 @@
     "test": "jest",
     "type-check": "tsc --pretty --noEmit"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged --verbose"
-    }
-  },
   "lint-staged": {
     "*.@(ts|tsx)": [
       "yarn format",
