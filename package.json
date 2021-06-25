@@ -24,7 +24,8 @@
   "lint-staged": {
     "*.@(ts|tsx)": [
       "yarn format",
-      "yarn lint"
+      "yarn lint",
+      "yarn type-check"
     ]
   },
   "dependencies": {
