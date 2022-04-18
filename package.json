@@ -14,7 +14,6 @@
     "export": "next export",
     "format": "prettier --write .",
     "lint": "next lint",
-    "ncu": "ncu",
     "sb": "start-storybook -p 6006",
     "sb:build": "build-storybook",
     "start": "next start",
@@ -43,11 +42,8 @@
     "eslint-config-next": "^12.1.5",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^6.0.0",
-    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
-    "jest-watch-typeahead": "^0.6.4",
     "lint-staged": "^11.0.0",
-    "npm-check-updates": "^11.7.1",
     "prettier": "^2.3.1",
     "typescript": "^4.3.4"
   }
