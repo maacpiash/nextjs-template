@@ -3,135 +3,253 @@
 exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="jsx-1276654382 container"
+    class="container"
   >
-    <main
-      class="jsx-1276654382"
-    >
+    <main>
       <h1
-        class="jsx-1276654382 title"
+        class="title"
       >
         Welcome to 
         <a
-          class="jsx-1276654382"
           href="https://nextjs.org"
         >
           Next.js!
         </a>
       </h1>
       <p
-        class="jsx-1276654382 description"
+        class="description"
       >
         Get started by editing 
-        <code
-          class="jsx-1276654382"
-        >
+        <code>
           pages/index.tsx
         </code>
       </p>
-      <button
-        class="jsx-1276654382"
-      >
+      <button>
         Test Button
       </button>
       <div
-        class="jsx-1276654382 grid"
+        class="grid"
       >
         <a
-          class="jsx-1276654382 card"
+          class="card"
           href="https://nextjs.org/docs"
         >
-          <h3
-            class="jsx-1276654382"
-          >
+          <h3>
             Documentation →
           </h3>
-          <p
-            class="jsx-1276654382"
-          >
+          <p>
             Find in-depth information about Next.js features and API.
           </p>
         </a>
         <a
-          class="jsx-1276654382 card"
+          class="card"
           href="https://nextjs.org/learn"
         >
-          <h3
-            class="jsx-1276654382"
-          >
+          <h3>
             Learn →
           </h3>
-          <p
-            class="jsx-1276654382"
-          >
+          <p>
             Learn about Next.js in an interactive course with quizzes!
           </p>
         </a>
         <a
-          class="jsx-1276654382 card"
+          class="card"
           href="https://github.com/vercel/next.js/tree/master/examples"
         >
-          <h3
-            class="jsx-1276654382"
-          >
+          <h3>
             Examples →
           </h3>
-          <p
-            class="jsx-1276654382"
-          >
+          <p>
             Discover and deploy boilerplate example Next.js projects.
           </p>
         </a>
         <a
-          class="jsx-1276654382 card"
+          class="card"
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         >
-          <h3
-            class="jsx-1276654382"
-          >
+          <h3>
             Deploy →
           </h3>
-          <p
-            class="jsx-1276654382"
-          >
+          <p>
             Instantly deploy your Next.js site to a public URL with Vercel.
           </p>
         </a>
       </div>
     </main>
-    <footer
-      class="jsx-1276654382"
-    >
+    <footer>
       <a
-        class="jsx-1276654382"
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         rel="noopener noreferrer"
         target="_blank"
       >
         Powered by 
-        <div
-          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
         >
-          <div
-            style="box-sizing: border-box; display: block; max-width: 100%;"
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
           >
             <img
               alt=""
               aria-hidden="true"
-              role="presentation"
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2764%27%20height=%2732%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
             />
-          </div>
+          </span>
           <img
             alt="Vercel Logo"
+            data-nimg="intrinsic"
             decoding="async"
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
           />
-        </div>
+          <noscript />
+        </span>
       </a>
     </footer>
+    <style>
+      
+      .container {
+        min-height: 100vh;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      main {
+        padding: 5rem 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      footer {
+        width: 100%;
+        height: 100px;
+        border-top: 1px solid #eaeaea;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      footer img {
+        margin-left: 0.5rem;
+      }
+
+      footer a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .title a {
+        color: #0070f3;
+        text-decoration: none;
+      }
+
+      .title a:hover,
+      .title a:focus,
+      .title a:active {
+        text-decoration: underline;
+      }
+
+      .title {
+        margin: 0;
+        line-height: 1.15;
+        font-size: 4rem;
+      }
+
+      .title,
+      .description {
+        text-align: center;
+      }
+
+      .description {
+        line-height: 1.5;
+        font-size: 1.5rem;
+      }
+
+      code {
+        background: #fafafa;
+        border-radius: 5px;
+        padding: 0.75rem;
+        font-size: 1.1rem;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+          Courier New, monospace;
+      }
+
+      .grid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        max-width: 800px;
+        margin-top: 3rem;
+      }
+
+      .card {
+        margin: 1rem;
+        flex-basis: 45%;
+        padding: 1.5rem;
+        text-align: left;
+        color: inherit;
+        text-decoration: none;
+        border: 1px solid #eaeaea;
+        border-radius: 10px;
+        transition: color 0.15s ease, border-color 0.15s ease;
+      }
+
+      .card:hover,
+      .card:focus,
+      .card:active {
+        color: #0070f3;
+        border-color: #0070f3;
+      }
+
+      .card h3 {
+        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
+      }
+
+      .card p {
+        margin: 0;
+        font-size: 1.25rem;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 600px) {
+        .grid {
+          width: 100%;
+          flex-direction: column;
+        }
+      }
+    
+    </style>
+    <style>
+      
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+          Droid Sans, Helvetica Neue, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    
+    </style>
   </div>
 </DocumentFragment>
 `;
