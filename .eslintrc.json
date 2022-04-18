@@ -1,5 +1,5 @@
 {
-  "extends": ["next", "prettier"],
+  "extends": ["next", "prettier", "plugin:storybook/recommended"],
   "rules": {
     "react/react-in-jsx-scope": 0,
     "react/display-name": 0,
