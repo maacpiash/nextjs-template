@@ -14,8 +14,6 @@
     "export": "next export",
     "format": "prettier --write .",
     "lint": "next lint",
-    "sb": "start-storybook -p 6006",
-    "sb:build": "build-storybook",
     "start": "next start",
     "test": "jest",
     "type-check": "tsc --pretty --noEmit"
